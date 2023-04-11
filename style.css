@@ -20,13 +20,15 @@
     padding: 18px 18px;
     border: 2px;
     margin-top: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* id - author name in the header */
 #author-name{
-    font-size: 14px;
+    font-size: 24px;
     color:blueviolet;
-    display: flex;
+
 }
 
 /* about me page, 1st section in the body */
