@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--style, scripts and links to other files and pages -->
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="javascript.js"> </script>
+    <title>Contact</title>
+</head>
+<body id="contact-body">
+    <!-- Navigation bar and content -->
+    <header>
+        <nav class = "navbar-container">
+            <div>
+                <a class="nav-bar-button" href="index.html" > HOME </a>
+                <a class="nav-bar-button" href="portfolio.html" > PORTFOLIO </a>
+                <a class="nav-bar-button" href="about.html" > ABOUT </a>
+                <a class="nav-bar-button" href="contact.html" > CONTACT </a>
+            </div>
+            <h1 id="author-name"> AJACH HAAR </h1>
+        </nav>
+
+    </header>
+
+    <!--FORM FOR CONTACT-->
+    <!-- Personal contact information form for client -->
+    <h1 style="color:blanchedalmond"> Contact Form </h1>
+    <div id="contact-form-div">
+        <form id="contact" action="formsubmitted.html">
+
+            <label for="firstname"> FIRST NAME </label> <br>
+            <input type="text" id="firstname"> <br> <br>
+
+            <label for="lastname"> LAST NAME </label> <br>
+            <input type="text" id="lastname"> <br> <br>
+    
+            <label for="email"> EMAIL </label> <br>
+            <input type="email" id="email" placeholder="your@email.com"> <br> <br>
+    
+            <label for="message"> MESSAGE </label> <br>
+            <textarea id="message" name="messagebox" rows="20" cols="50"></textarea> <br>
+    
+    
+            <input class="contact-submit-button" type="submit" value="Submit">
+    
+        </form>
+    
+        <!--Input action to lead to formsubmitted page-->
+    </div>
+
+</body>
+</html>
